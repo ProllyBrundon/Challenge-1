@@ -19,9 +19,13 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Awesome!"
+        messageLabel.textColor = UIColor.blue
+        messageLabel.textAlignment = .left
     }
     @IBAction func anotherButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Great!"
+        messageLabel.textColor = .systemRed
+        messageLabel.textAlignment = .right
     }
 }
 
